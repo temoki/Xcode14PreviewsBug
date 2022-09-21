@@ -1,3 +1,5 @@
+UserInterfaceState.xcuserstate
+
 # Created by https://www.toptal.com/developers/gitignore/api/xcode,swift
 # Edit at https://www.toptal.com/developers/gitignore?templates=xcode,swift
 
