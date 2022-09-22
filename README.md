@@ -24,6 +24,8 @@ text = __designTimeString("#4947.[1].[2].[0].[0]", fallback: "Sample1")
 - UIKitのViewのコードと、PrewviewProviderのコードが同じSwiftソースファイルの中に含まれる場合、UIKitのViewのコードまで置き換えられてしまう。
 - `__designTime~(_:fallback:)` はSwiftUIのための非公開APIのため、iOS13以降でしか利用できず、コンパイルエラーとなってしまう。
 
+参考: [XcodePreviews の仕組み](https://gist.github.com/AkkeyLab/67af9a91498c6c5ad138123cb8ae5c28)
+
 ### サンプルコード
 #### Sample1 : 再現するパターン
 ![](Sample1.png)
